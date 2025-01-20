@@ -7,5 +7,7 @@
 </script>
 
     <Header />
-		{@render children()}
+	<main class="grid justify-center items-center absolute top-16 bottom-16 px-8 border-t-[1px] border-solid border-steel-gray w-full">
+		{@render children()}       
+	</main>
     <Footer />

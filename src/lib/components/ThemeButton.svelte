@@ -1,7 +1,7 @@
 <script lang="ts">
 
-        let darkTheme = $state(false)
-        let themeIcon = $state('🌞');
+        let darkTheme: boolean = $state(false)
+        let themeIcon: string = $state('🌞');
 
     function handleThemeChange() {
         darkTheme = !darkTheme
